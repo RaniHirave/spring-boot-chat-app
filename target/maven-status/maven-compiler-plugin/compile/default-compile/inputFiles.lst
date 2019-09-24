@@ -1,5 +1,0 @@
-/home/rhirave/Documents/dockerPractice/dockerdemo/spring-boot-websocket-chat-demo/src/main/java/com/example/websocketdemo/WebsocketDemoApplication.java
-/home/rhirave/Documents/dockerPractice/dockerdemo/spring-boot-websocket-chat-demo/src/main/java/com/example/websocketdemo/controller/WebSocketEventListener.java
-/home/rhirave/Documents/dockerPractice/dockerdemo/spring-boot-websocket-chat-demo/src/main/java/com/example/websocketdemo/config/WebSocketConfig.java
-/home/rhirave/Documents/dockerPractice/dockerdemo/spring-boot-websocket-chat-demo/src/main/java/com/example/websocketdemo/model/ChatMessage.java
-/home/rhirave/Documents/dockerPractice/dockerdemo/spring-boot-websocket-chat-demo/src/main/java/com/example/websocketdemo/controller/ChatController.java
