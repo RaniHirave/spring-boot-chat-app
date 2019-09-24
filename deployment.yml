@@ -1,0 +1,25 @@
+apiVersion: apps/v1beta2
+kind: Deployment
+metadata:
+   name: spring-boot-websocket-chat-demo
+spec:
+   replicas: 3
+   selector:
+      matchLabels:
+         app: spring-boot-websocket-chat-demo
+   minReadySeconds: 10
+   strategy:
+      type: RollingUpdate
+      rollingUpdate:
+         maxUnavailable: 1
+         maxSurge: 1
+   template:
+      metadata:
+         labels:
+            app: spring-boot-websocket-chat-demo
+      spec:
+         containers:
+         - name: spring-boot-websocket-chat-demo
+           image: ranihirave22/spring-boot-websocket-chat-demo
+           ports:
+           - containerPort: 8080
